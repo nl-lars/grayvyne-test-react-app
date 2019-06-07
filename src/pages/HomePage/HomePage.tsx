@@ -7,7 +7,7 @@ export class HomePage extends React.Component<RouteComponentProps> {
     public render(): JSX.Element {
         return (
             <CommonPageWithNavigation route={Routes.HOME} {...this.props}>
-                <h1>{'HOME PAGE'}</h1>
+                <h1>{'HOME PAGE FOR A NEW VERSION'}</h1>
             </CommonPageWithNavigation>
         );
     }
